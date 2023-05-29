@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap");
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 70px;
+  margin: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 5;
+  box-shadow: 0 1px 1px #ccc;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  width: 130px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.9px;
+  color: #0084ff;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.logoText {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Raleway", sans-serif;
+}
+
+.dropdownText {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropdownIcon {
+  padding-top: 0;
+  padding-left: 8px;
+}
+
+.navDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.explore {
+  width: 200px;
+  text-align: right;
+  letter-spacing: .9px;
+  cursor: pointer;
+}
+
+.subNav {
+  display: flex;
+}
+
+.navPara {
+  margin-right: 50px; 
+}
+
+.navPara p {
+  opacity: 0.6;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+  /* margin-top: 0; */
+}
+
+.navBtn{
+    margin: auto;
+}
+.navBtn Button {
+  width: auto;
+  font-size: 0.75em;
+  padding: 0.5em 2em;
+  margin: auto 1em auto 0px;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+  height: 42px;
+  border-radius: 35px;
+}
